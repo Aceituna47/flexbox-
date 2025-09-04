@@ -1,0 +1,29 @@
+<div class="boton">Pasá el mouse</div><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="boton">Pasá el mouse</div>
+
+    <style>
+        .boton {
+  background: #2ecc71;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.boton:hover {
+  transform: scale(1.1); /* agranda un poco */
+  background: #27ae60;   /* cambia de color */
+}
+
+    </style>
+</body>
+</html>
