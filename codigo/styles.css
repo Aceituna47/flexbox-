@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 40px;
+}
+
+.contenedor {
+  max-width: 800px;
+}
+
+.img-circular {
+  float: left;
+  shape-outside: circle(50%);
+  clip-path: circle(50%);
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}

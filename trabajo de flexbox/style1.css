@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Logo a la izq, menú a la der ¿capicci? */
+    align-items: center; /* Centrado vertical */
+    padding: 15px 30px;
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 20px; /* espacio entre enlaces */
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 600px) {
+    .header {
+      flex-direction: column; /* Logo arriba, menú abajo */
+      gap: 10px;
+    }
+  }
+  
